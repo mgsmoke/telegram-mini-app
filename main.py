@@ -26,7 +26,7 @@ dp = Dispatcher()
 async def start(message: types.Message):
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
-            [InlineKeyboardButton(text="Открыть приложение", web_app=WebAppInfo(url="https://your-web-app-url.com"))]
+            [InlineKeyboardButton(text="Открыть приложение", web_app=WebAppInfo(url="https://mgsmoke.github.io/telegram-mini-app/"))]
         ]
     )
     await message.answer("Нажмите кнопку ниже, чтобы открыть приложение:", reply_markup=keyboard)
